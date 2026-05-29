@@ -1,3 +1,3 @@
 <!DOCTYPE html>
 <html lang="bg">
-project sigmas
+Project Sigmas
