@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(90deg, rgb(255, 228, 164), rgb(178, 255, 222));
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    font-size: xx-large;
+    color: black;
+    transition: 0.1s;
+}
+
+.links:hover {
+    transform: scale(1.2);
+    color: rgb(82, 187, 152);
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(255, 228, 164), rgb(178, 255, 222));
+}
+
+.ad {
+    height: 100px;
+}
