@@ -26,6 +26,7 @@ body {
 .links:hover {
     transform: scale(1.2);
     color: rgb(82, 187, 152);
+    cursor: pointer;
 }
 
 .header {
