@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(90deg, rgb(255, 228, 164), rgb(178, 255, 222));
+}
+h1 {
+    text-align: center;
+    transition: 0.2s;
+}
+img {
+    margin: 20px;
+    border: 6px double black;
+    transition: 0.2s;
+    border-radius: 10px; 
+}
+#monopoli {
+    width: 400px;
+    height: 300px;
+}
+#chess {
+    width: 400px;
+    height: 300px;
+}
+#UNO {
+    width: 400px;
+    height: 300px;
+}
+#domino{
+   width: 400px;
+   height: 300px; 
+}
+#war {
+    width: 400px;
+   height: 300px; 
+}
+#rar {
+    width: 400px;
+   height: 300px;
+}
+.cont {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+img:hover{
+    transform: scale(1.1);
+}
+h1:hover {
+    transform: scale(1.1);
+}
