@@ -5,12 +5,16 @@ body {
     padding: 0;
 }
 
+body h1, p {
+    animation: fadeIn 1s forwards;
+}
+
 .cont {
     margin: 0 auto;
     border: 4px solid black;
     border-radius: 20px;
     width: 50%;
-    height: 400px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,6 +38,18 @@ body {
     position: fixed;
     text-align: center;
     background-image: linear-gradient(to left, rgb(255, 228, 164), rgb(178, 255, 222));
+    animation: fadeIn 1s forwards;
+}
+
+#mainImg {
+    width: 500px;
+}
+
+#welcome {
+    font-size: x-large;
+}
+
+img {
     animation: fadeIn 1s forwards;
 }
 
